@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: #fff;
+    background-color: rgb(3, 3, 56);
+}
+.first-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 3, 56);
+}
+.nav-bar h2 {
+    color: orange;
+}
+.nav-bar ul li {
+    color: #fff;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.nav-bar ul li:hover {
+    color: orange;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.headline-first {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.headline-content h1 {
+    color: orange;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.headline-content p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.headline-content button {
+    margin-top: 20px;
+    color: #fff;
+    background: orange;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.headline-content button:hover {
+    background-color: rgb(3, 3, 56);
+
+}
+.headline-img img {
+    width: 450px;
+}
+.headline-second {
+    height: 70vh;
+    background-color: rgb(3, 3, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.second-img img {
+    width: 400px; 
+}
+.second-content {
+    margin-left: 55px;
+}
+.second-content h5 {
+    color: orange;
+    margin-bottom: 20px;
+}
+.second-content h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.second-content p {
+    color: white;
+    width: 80%;
+}
+.second-content button {
+    margin-top: 20px;
+    color: #fff;
+    background: orange;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.headline-third {
+    text-align: center;
+    margin-top: 100px;
+}
+.third-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headline-third h2 {
+    margin-bottom: 50px;
+}
+.headline-third img {
+    width: 150px;
+}
+.third-img-container h3,p {
+    color: #222;
+}
+.third-img-container h6 {
+    color: orange;
+}
+.image-one,.image-two,.image-three {
+    background: #fff;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+}
+.headline-third h5 {
+    color: orange;
+    margin-top: 15px;
+}
+.headline-fourth {
+    text-align: center;
+    margin-top: 80px;
+    height: 55vh;
+}
+.headline-fourth h4 {
+    color: orange;
+}
+.service-container img {
+    width: 130px;
+}
+.service-container h3 {
+    color: orange;
+}
+.service-container p {
+    color: #fff;
+    width: 90%;
+}
+.service-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.last-welcome {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    width: 75%;
+    border-radius: 7px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.last-welcome h2 {
+    color: #030338;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 50%;
+    text-transform: capitalize;
+}
+.last-welcome button {
+    margin-top: 20px;
+    color: #fff;
+    background: orange;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.h2-header {
+    display: flex;
+    justify-content: center;
+}
+.last-section {
+    margin-top: 200px;
+}
